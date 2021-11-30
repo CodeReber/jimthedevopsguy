@@ -86,7 +86,7 @@ toml==0.10.2
 traitlets==5.0.4
 typepy==1.1.1
 ujson==4.1.0
-urllib3==1.25.9
+urllib3
 virtualenv==20.0.33
 virtualenv-clone==0.5.4
 Werkzeug==0.14.1
