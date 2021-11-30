@@ -53,7 +53,7 @@ pathvalidate==2.3.0
 pipenv==2020.8.13
 pluggy==0.13.1
 pyasn1==0.4.8
-pycodestyle==2.6.0
+pycodestyle
 pycparser==2.20
 pydocstyle==6.1.1
 pyflakes==2.2.0
