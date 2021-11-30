@@ -22,8 +22,8 @@ class Blogpost(db.Model):
     author = db.Column(db.String(20))
     date_posted = db.Column(db.DateTime)
     content = db.Column(db.Text)
-user = os.environ.get('USER_NAME', NONE)
-pw = os.environ.get('PASS_PW', NONE)
+user = os.environ.get('USER_NAME', '')
+pw = os.environ.get('PASS_PW', '')
 users = {
     user: generate_password_hash(pw)
 }
