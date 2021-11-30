@@ -22,8 +22,8 @@ class Blogpost(db.Model):
     author = db.Column(db.String(20))
     date_posted = db.Column(db.DateTime)
     content = db.Column(db.Text)
-user = 'user'
-pw = 'pw'
+user = USER_NAME
+pw = PASS_PW
 users = {
     user: generate_password_hash(pw)
 }
