@@ -14,7 +14,7 @@ jobs:
     - name: Deploy Flask app
       uses: actions/checkout@master
       with:
-        host: ${{secrets.ssh_host}}
+        host: ${{secrets.cat_host}}
         key: ${{secrets.ssh_key}}
         username: ${{secrets.ssh_username}}
         
