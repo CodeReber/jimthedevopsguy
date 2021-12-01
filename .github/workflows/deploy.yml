@@ -11,9 +11,8 @@ jobs:
   deploy: 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
     - name: Deploy Flask app
-      uses: actions/setup-python@v2
+      uses: appleboy/ssh-action@v9.1.2
       with:
         host: ${{secrets.SSH_HOST}}
         key: ${{secrets.SSH_KEY}}
