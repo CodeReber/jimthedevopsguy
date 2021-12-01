@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: centos-latest
+    runs-on: centos
     steps:
     - uses: actions/checkout@v2
     - name: Deploy Flask app
