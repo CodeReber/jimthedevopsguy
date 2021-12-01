@@ -8,8 +8,8 @@ on:
     branches: [ master ]
 
 jobs:
-  deploy:
-    runs-on: centos
+  deploy: 
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Deploy Flask app
